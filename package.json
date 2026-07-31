@@ -1,0 +1,27 @@
+{
+  "name": "backend_session",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Nuwahereza-eng/backend_session#readme",
+  "bugs": {
+    "url": "https://github.com/Nuwahereza-eng/backend_session/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nuwahereza-eng/backend_session.git"
+  },
+  "license": "ISC",
+  "author": "petercodes",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.0",
+    "nodemon": "^3.1.14"
+  }
+}
